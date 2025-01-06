@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Productivity Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is my first website created using GitHub Pages.</p>
+    <div class="container">
+        <h1>Welcome to Your Productivity Tracker</h1>
+
+        <!-- Workout Tracker -->
+        <div class="tracker">
+            <h2>Workout Tracker</h2>
+            <p>Target: 3 workouts a week</p>
+            <div class="progress-bar">
+                <div class="progress" id="workout-progress"></div>
+            </div>
+        </div>
+
+        <!-- Book Tracker -->
+        <div class="tracker">
+            <h2>Book Reading Tracker</h2>
+            <p>Target: 1 book a month</p>
+            <div class="progress-bar">
+                <div class="progress" id="book-progress"></div>
+            </div>
+        </div>
+
+        <!-- Lookmaxing Routine -->
+        <div class="tracker">
+            <h2>Lookmaxing Routine</h2>
+            <p>Daily routine + weekly masks</p>
+            <div class="progress-bar">
+                <div class="progress" id="lookmaxing-progress"></div>
+            </div>
+        </div>
+
+        <!-- Article Reading Tracker -->
+        <div class="tracker">
+            <h2>Article Reading Tracker</h2>
+            <p>Read 1 article a day</p>
+            <div class="progress-bar">
+                <div class="progress" id="article-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
