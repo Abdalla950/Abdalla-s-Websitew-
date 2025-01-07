@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #ffcc00;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #ff9900;
+}
+
+/* Progress Bars */
+.tracker {
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 20px;
+    width: 0%;
+    background-color: #ffcc00;
+    transition: width 0.3s ease;
+}
+
+/* Links */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
